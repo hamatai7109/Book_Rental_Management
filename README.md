@@ -1,9 +1,14 @@
-# React + Vite
+# Book Rental Management (React + Vite + firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo is going to be Book Rental Management.
 
-Currently, two official plugins are available:
+Upcoming functions..
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Book_Rental_Management
+- Authorization(SignUp/SignIn/SignOut)
+- Top page (List of Books available and unavailable)
+- About page (about project)
+- Request page (user can request new book, search books from Google Books API)
+- Review page (user can see other users review)
+- Profile page (user can manage simple profile, name/photo/BIO/rentalHistory)
+- Book detail page(rental/return/booking/review...)
+- Rental page(rental for certain length maybe maximum is 1 week i guess)
