@@ -1,4 +1,5 @@
 import "./App.css";
+import Test from "./Routes/Test";
 import { Signin } from "./Routes/Signin";
 import { Signup } from "./Routes/Signup";
 import { Home } from "./Routes/Home";
@@ -32,6 +33,10 @@ function App() {
     {
       path: "/signup",
       element: <Signup></Signup>,
+    },
+    {
+      path: "/test",
+      element: <Test></Test>,
     },
   ]);
   return (
